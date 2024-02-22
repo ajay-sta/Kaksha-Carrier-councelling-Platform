@@ -1,0 +1,43 @@
+/* Styling for career counseling test */
+.test-section {
+    margin: 60px auto; /* Centering horizontally with auto margins */
+    max-width: 800px; /* Limiting maximum width for better readability */
+    padding: 20px; /* Adding padding for spacing */
+    background-color: #f9f9f9; /* Adding a light background color */
+    border-radius: 10px; /* Adding rounded corners for a modern look */
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+.question label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Styling for submit button */
+#career-test input[type="submit"] {
+    background-image: linear-gradient(#033747, #012733);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling for footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    font-size: 14px;
+}
